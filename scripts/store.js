@@ -38,7 +38,7 @@ const findAndDelete = function(id) {
 }
 
 const toggleCheckedFilter = function() {
-    this.hideCheckedItems = !hideCheckedItems; 
+    this.hideCheckedItems = !this.hideCheckedItems; 
 }
 
 
